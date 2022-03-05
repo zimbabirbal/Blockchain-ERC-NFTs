@@ -15,8 +15,13 @@ This sample is clone from this github [Bitatlas] (https://github.com/Bitatlas/ER
 
 ### Compiling and deploying steps (Already existed coin Ether, Shibu etc)
 * Pull the Smart Contract from Etherscan.io (https://etherscan.io/address/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce#code)
-* Add new solidity file in Remix and paste the Smart Contract and compile it.
+* Add new solidity file in Remix and paste the Smart Contract and compile it (Sample file Zyaba attached in github).
 * Before deploying change the contract to this (TokenMintERC20-nameContract.sol).
 * In the deploy option fill the relevant the information (Crypto Name, Symbol, Decimal, for FreeReciver and TokenOwnerAddress add your address)
 * And deploy the contract to target platform
 * Done voila !!!
+
+### Compiling and deploying steps (Using OpenZepplin)
+* Go to OpenZepplin wizard (https://docs.openzeppelin.com/contracts/4.x/wizard) and make changes as required.
+* Copy the Smart Contract and create new file and paste it on Remix.
+* Deploy the Smart Contract by selecting the Contract file.
