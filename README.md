@@ -25,3 +25,24 @@ This sample is clone from this github [Bitatlas] (https://github.com/Bitatlas/ER
 * Go to OpenZepplin wizard (https://docs.openzeppelin.com/contracts/4.x/wizard) and make changes as required.
 * Copy the Smart Contract and create new file and paste it on Remix.
 * Deploy the Smart Contract by selecting the Contract file.
+* Done Voila !!!
+
+## ERC721-NFTs
+Compiling and deploying steps are same as ERC20.
+In this example we are using OpenZepplin to get ERC721 Smart Contract.
+* Go to OpenZepplin wizard (https://docs.openzeppelin.com/contracts/4.x/wizard) and make changes (Mintable-->auto increment ids) as required for ERC721.
+* Copy the Smart Contract and create new file and paste it on Remix.
+* Deploy the Smart Contract by selecting the Contract file.
+* In Remix, at the safemint button, add your account address and uri string (whatever). Go on adding what number of NFTs you want one by one.
+* Done voila !!!
+
+## ERC1155-NFTs
+Compiling and deploying steps are same as ERC721.
+In this example we are using OpenZepplin to get ERC1155 Smart Contract.
+* Go to OpenZepplin wizard (https://docs.openzeppelin.com/contracts/4.x/wizard) and make changes (Mintable) as required for ERC1155.
+* Copy the Smart Contract and create new file and paste it on Remix.
+* Deploy the Smart Contract by selecting the Contract file.
+* In Remix, at the mint button, add your account address, id, amount and data (hex: 0x start with this) 
+* (Example: Party Tickets (Types Vip(1), Semi-Vip(2), Normal(3). I want to buy Vip 10 tickets then (address-->myaddress, id-->1 (Vip), amount-->10, data-->0x)). 
+* Go on adding what number of NFTs you want one by one.
+* Done voila !!!
